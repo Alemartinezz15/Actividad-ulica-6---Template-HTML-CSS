@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+}
+
+.content-header img {
+    width: 200px;
+    margin-right: 2em;
+}
+
+.content-header div {
+    max-width: 70%;
+}
+
+.read-more {
+    background: #28a745;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.welcome {
+    margin-top: 2em;
+}
+
+.welcome h2 {
+    margin-top: 0;
+}
+
+.welcome ul {
+    list-style: disc;
+    padding-left: 1.5em;
+}
+
+.latest-news {
+    margin-top: 2em;
+}
+
+.latest-news h2 {
+    margin-top: 0;
+}
+
+.latest-news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.latest-news ul li {
+    margin-bottom: 1em;
+}
+
+.latest-news ul li h3 {
+    margin: 0;
+}
+
+/* Footer styling */
+footer {
+    background: #333; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 2em 0;
+    margin-top: 2em;
+}
+
+footer .footer-column {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer .footer-column h3 {
+    margin-top: 0;
+}
+
+footer .footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-column ul li {
+    margin-bottom: 0.5em;
+}
+
+footer .footer-column ul li a {
+    color: #ccc; /* Color del enlace */
+    text-decoration: none;
+}
+
+footer .footer-column ul li a:hover {
+    color: #fff; /* Color al pasar el cursor */
+}
